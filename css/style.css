@@ -1,0 +1,31 @@
+/* Global */
+
+a.main {
+    text-decoration: none;
+    color: linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(0, 124, 248) 50%);
+    font-size: 30px;
+}
+a.studio {
+    font-size: 30px;
+    text-decoration: none;
+}
+a.portfolio {
+    text-decoration: none;
+    font-size: 30px;
+}
+a.contacts {
+    text-decoration: none;
+    font-size: 30px;
+}
+a.email {
+    text-decoration: none;
+    font-size: 30px;
+}
+a.phone {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+/* Local (index.html) */
