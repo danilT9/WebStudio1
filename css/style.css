@@ -1,0 +1,257 @@
+/* Global */
+:root {
+    --main-color: rgba(255, 255, 255, 1);
+    --main-font: "Raleway", sans-serif;
+    --main-font-2: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+a.main {
+    font-size: 26px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(0, 153, 255) 27%, rgb(0, 0, 0) 50%);
+    background-clip: text;
+    color: transparent;
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    top: 0px;
+}
+a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    top: -15px;
+    left: 215px;
+}
+
+a.studio {
+    left: 453px;
+    top: -21px;
+}
+
+a.portfolio {
+    left: 548px;
+    top: -40px;
+}
+
+a.contacts {
+    left: 670px;
+    top: -59px;
+}
+
+a.email {
+    left: 1305px;
+    top: -79px;
+    font-family: var(--main-font-2);
+}
+
+a.phone {
+    left: 1490px;
+    top: -98px;
+    font-family: var(--main-font-2);
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* Local (index.html) */
+
+
+section.main-b1 {
+    background-color: #2F303A;
+    height: 600px;
+    margin-top: -120px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+section.main-b1 h1.main-text {
+    color: var(--main-color);
+    position: relative;
+    text-align: center; 
+    top: 45%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: pre-line;
+    line-height: normal;
+    font-family: var(--main-font-2);
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+section.main-b1 button.main-b {
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    background-color: #2196F3;
+    color: var(--main-color);
+    width: 192px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+section.main-b1 button.main-b:hover {
+    background-color: white;
+    color:#2196F3;
+}
+
+.section-desc {
+    margin-left: 215px;
+}
+
+.section-desc li {
+    margin-top: 94px;
+}
+
+.section-desc li h3 {
+    text-align: start;
+}
+
+.ul-text-main {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.ul-text-main li {
+    flex: 1;
+}
+
+.ul-text-main li p {
+    text-align: start;
+    width: 270px;
+    height: 72px;
+}
+
+
+.section-desc h3 {
+    font-family: var(--main-font-2);
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.section-desc p {
+    font-family: var(--main-font-2);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ul-text-main{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.what {
+    margin-top: 94px;
+    text-align: center;
+    font-family: var(--main-font-2);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ul-main-img {
+    display: flex;
+}
+
+.ul-main-img li {
+    margin-left: 95px;
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    flex: 1;
+}
+
+.team {
+    margin-top: 188px;
+    text-align: center;
+    font-family: var(--main-font-2);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.who-ul {
+    display: flex;
+}
+
+.who-ul li {
+    text-align: start;
+    font-family: var(--main-font-2);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 95px;
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    flex: 1;
+}
+
+.who-ul p {
+    text-align: start;
+    font-family: var(--main-font-2);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    flex: 1;
+}
+
+footer {
+    background-color: #2F303A;
+    height: 252px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+.footer-selection {
+    margin-left: 140px;
+}
+
+.empty {
+    font-size: 10px;
+}
+
+.ul-h2 {
+    font-family: var(--main-font);
+    font-size: 26px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(0, 153, 255) 27%, rgb(0, 0, 0) 50%);
+    background-clip: text;
+    color: transparent;
+    font-family: var(--main-font);
+}
+
+.p-w {
+    color: white;
+    font-family: var(--main-font-2);
+}
+
+.p-g {
+    color: gray;
+    font-family: var(--main-font-2);
+}
