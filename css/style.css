@@ -1,6 +1,7 @@
 /* Global */
 :root {
     --main-color: rgba(255, 255, 255, 1);
+    --a-button-color: rgb(0, 153, 255);
     --main-font: "Raleway", sans-serif;
     --main-font-2: "Roboto", sans-serif;
 }
@@ -254,4 +255,85 @@ footer {
 .p-g {
     color: gray;
     font-family: var(--main-font-2);
+}
+
+
+
+
+/* Local (portfolio.html) */
+
+
+.f-section .b1:hover {
+    background-color: var(--a-button-color);
+    color: var(--main-color);
+}
+
+.f-section .b2:hover {
+    background-color: var(--a-button-color);
+    color: var(--main-color);
+}
+
+.f-section .b3:hover {
+    background-color: var(--a-button-color);
+    color: var(--main-color);
+}
+
+.f-section .b4:hover {
+    background-color: var(--a-button-color);
+    color: var(--main-color);
+}
+
+.f-section .b5:hover {
+    background-color: var(--a-button-color);
+    color: var(--main-color);
+}
+
+.f-section .b1,.b2,.b3,.b4,.b5 {
+    position: relative;
+    left: 35%;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: var(--main-font-2);
+    font-weight: medium;
+    border: 10px solid transparent;
+    border-radius: 4px;
+}
+
+.s-section {
+    margin-top: -150px;
+    padding: 215px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.s-section ul li {
+    flex: 1 0 calc(33.33% - 60px);
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.s-section ul li img {
+    width: 100%;
+    height: auto;
+}
+
+.b-title {
+    font-family: var(--main-font-2);
+    font-weight: bold;
+}
+
+.r-title {
+    font-family: var(--main-font-2);
+    font-weight: normal;
 }
