@@ -8,22 +8,28 @@
 
 body {
     background-color: var(--main-color);
+    font-family: var(--main-font);
 }
 
-a.main {
-    font-size: 26px;
-    text-decoration: none;
-    background-image: linear-gradient(to right, rgb(0, 153, 255) 27%, rgb(0, 0, 0) 50%);
-    background-clip: text;
-    color: transparent;
-    font-family: var(--main-font);
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    position: relative;
-    top: 0px;
+.header-ul li {
+    display: inline-block;
+    margin: 0 30px;
 }
+
+.header-ul .l5, .l6 {
+    margin-left: 350px;
+}
+
+.header-ul li:not(.ll) {
+    transform: translateY(20px);
+}
+
+.ll {
+    transform: translateY(7px);
+}
+
 a {
+    display: inline-block;
     font-size: 17px;
     text-decoration: none;
     color: black;
@@ -36,30 +42,40 @@ a {
     left: 215px;
 }
 
+a.main {
+    display: inline-block;
+    font-size: 26px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(0, 153, 255) 27%, rgb(0, 0, 0) 50%);
+    background-clip: text;
+    color: transparent;
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    top: 0px;
+}
+
 a.studio {
-    left: 453px;
-    top: -21px;
+    display: inline-block;
 }
 
 a.portfolio {
-    left: 548px;
-    top: -40px;
+    display: inline-block;
 }
 
 a.contacts {
-    left: 670px;
-    top: -59px;
+    display: inline-block;
 }
 
 a.email {
-    left: 1305px;
-    top: -79px;
+    display: inline-block;
     font-family: var(--main-font-2);
 }
 
 a.phone {
-    left: 1490px;
-    top: -98px;
+    display: inline-block;
     font-family: var(--main-font-2);
 }
 
@@ -74,7 +90,7 @@ li {
 section.main-b1 {
     background-color: #2F303A;
     height: 600px;
-    margin-top: -120px;
+    margin-top: 0px;
     margin-left: -10px;
     margin-right: -8px;
 }
@@ -331,6 +347,8 @@ footer {
 .b-title {
     font-family: var(--main-font-2);
     font-weight: bold;
+    left: 0px;
+    top: 10px;
 }
 
 .r-title {
