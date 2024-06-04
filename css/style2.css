@@ -22,6 +22,8 @@ body {
 header {
     background-color: #f8f8f8;
     padding: 20px 0;
+    position: sticky;
+    top: 0;
 }
 
 nav .container {
@@ -79,7 +81,6 @@ main {
 }
 
 .f-section {
-    position: sticky;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -87,7 +88,6 @@ main {
 }
 
 .f-section button {
-    position: sticky;
     font-size: 16px;
     font-family: var(--main-font-2);
     font-weight: medium;
@@ -103,30 +103,30 @@ main {
 }
 
 .s-section {
-    margin-top: -150px;
-    padding: 215px;
-    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0 15px;
 }
 
-.s-section ul {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
+    gap: 30px;
     list-style: none;
-    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.s-section ul li {
+.portfolio-item {
     flex: 1 0 calc(33.33% - 60px);
-    margin: 30px;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.s-section ul li img {
+.portfolio-item img {
     width: 100%;
     height: auto;
 }
@@ -134,8 +134,7 @@ main {
 .b-title {
     font-family: var(--main-font-2);
     font-weight: bold;
-    left: 0px;
-    top: 10px;
+    margin-top: 10px;
 }
 
 .r-title {
@@ -151,6 +150,7 @@ footer {
 
 .footer-selection {
     font-family: var(--main-font);
+    text-align: center;
 }
 
 .empty {
