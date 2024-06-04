@@ -23,6 +23,8 @@ body {
 header {
     background-color: #f8f8f8;
     padding: 20px 0;
+    position: sticky;
+    top: 0;
 }
 
 nav .container {
@@ -160,7 +162,7 @@ footer {
 
 .ul-h2 {
     font-family: var(--main-font-2);
-    color:var(--a-button-color)
+    color: var(--a-button-color);
 }
 
 .footer-selection .p-w, .footer-selection .p-g {
