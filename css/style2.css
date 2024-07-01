@@ -33,6 +33,7 @@ nav .container {
 }
 
 .header-ul {
+    
     list-style: none;
     padding: 0;
     margin: 0;
@@ -48,8 +49,8 @@ nav .container {
     margin-right: auto;
 }
 
-.header-ul li.l5, .header-ul li.l6 {
-    margin-left: 15px;
+.header-ul li.l5 {
+    margin-left: 400px;
 }
 
 a {
@@ -83,8 +84,8 @@ main {
 .f-section {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin: 20px 0;
+    gap: 8px;
+    margin: 94px 0 50px;
 }
 
 .f-section button {
@@ -103,16 +104,12 @@ main {
 }
 
 .s-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 15px;
+    margin-bottom: 94px;
 }
 
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     list-style: none;
     padding: 0;
@@ -120,26 +117,35 @@ main {
 }
 
 .portfolio-item {
-    flex: 1 0 calc(33.33% - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio-item img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 80%;
+}
+
+.portfolio-item-content {
+    padding: 20px 24px;
 }
 
 .b-title {
     font-family: var(--main-font-2);
     font-weight: bold;
-    margin-top: 10px;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-bottom: 4px;
 }
 
 .r-title {
     font-family: var(--main-font-2);
-    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 footer {
@@ -150,7 +156,7 @@ footer {
 
 .footer-selection {
     font-family: var(--main-font);
-    text-align: center;
+    text-align: left;
 }
 
 .empty {
