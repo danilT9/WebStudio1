@@ -35,19 +35,19 @@ nav .container {
 }
 
 .section-desc-li1::before {
-    content: url(../imgs/index/osob/antenna.png);
+    content: url("../imgs/index/osob/antenna.svg");
 }
 
 .section-desc-li2::before {
-    content: url(../imgs/index/osob/clock.png);
+    content: url("../imgs/index/osob/clock.svg");
 }
 
 .section-desc-li3::before {
-    content: url(../imgs/index/osob/diagram.png);
+    content: url("../imgs/index/osob/diagram.svg");
 }
 
 .section-desc-li4::before {
-    content: url(../imgs/index/osob/astronaut.png);
+    content: url("../imgs/index/osob/astronaut.svg");
 }
 
 .header-ul {
@@ -99,7 +99,7 @@ main {
 }
 
 section.main-b1 {
-    background-color: #2F303A;
+    background-image: url("../imgs/index/overlay/backover.jpg");
     height: 400px;
     margin: 0;
     display: flex;
@@ -127,11 +127,16 @@ section.main-b1 {
     font-size: 15px;
     border: none;
     cursor: pointer;
+    box-shadow: 4px 4px 4px rgb(10, 10, 10);
 }
 
 .main-b1 button:hover {
-    background-color: white;
+    background-color: rgba(210, 210, 210, 1);
     color: #2196F3;
+}
+
+.main-b1 button:active {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .section-desc, .what, .team {
@@ -190,8 +195,16 @@ footer {
 
 .ul-h2 {
     font-family: var(--main-font-2);
-    color: var(--a-button-color);
 }
+
+.h2_c {
+    color: #2196F3;
+
+    background: linear-gradient(90deg, var(--a-button-color) 30%, white 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .footer-selection .p-w, .footer-selection .p-g {
     margin: 5px 0;
