@@ -165,10 +165,16 @@ footer {
 
 .ul-h2 {
     font-family: var(--main-font-2);
-    color: var(--a-button-color);
+}
+
+.h2_c {
+    color: #2196F3;
+
+    background: linear-gradient(90deg, var(--a-button-color) 30%, white 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .footer-selection .p-w, .footer-selection .p-g {
     margin: 5px 0;
 }
-
