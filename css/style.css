@@ -34,6 +34,22 @@ nav .container {
     align-items: center;
 }
 
+.section-desc-li1::before {
+    content: url(../imgs/index/osob/antenna.png);
+}
+
+.section-desc-li2::before {
+    content: url(../imgs/index/osob/clock.png);
+}
+
+.section-desc-li3::before {
+    content: url(../imgs/index/osob/diagram.png);
+}
+
+.section-desc-li4::before {
+    content: url(../imgs/index/osob/astronaut.png);
+}
+
 .header-ul {
     list-style: none;
     padding: 0;
@@ -124,6 +140,16 @@ section.main-b1 {
 
 .section-desc h3, .section-desc p {
     text-align: left;
+    margin-left: 50px;
+}
+
+.section-desc h3 {
+    font-weight: 750;
+}
+
+.section-desc p {
+    margin-top: -10px;
+    font-weight: 350;
 }
 
 .section-desc .ul-text-main {
@@ -131,6 +157,7 @@ section.main-b1 {
     justify-content: space-between;
     list-style: none;
     padding: 0;
+    margin-left: -10px;
 }
 
 .ul-main-img {
